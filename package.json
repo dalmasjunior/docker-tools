@@ -1,0 +1,33 @@
+{
+  "name": "docker-tools",
+  "version": "0.1.0",
+  "description": "some tools created to make your life with docker more easy",
+  "main": "./lib/index.js",
+  "bin": {
+    "dk": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalmasjunior/docker-tools.git"
+  },
+  "keywords": [
+    "docker",
+    "tools",
+    "node",
+    "nodejs"
+  ],
+  "author": "Paulo Roberto Dalmas Junior <dalmasjunior@gmail.com> (https://github.com/dalmasjunior)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dalmasjunior/docker-tools/issues"
+  },
+  "homepage": "https://github.com/dalmasjunior/docker-tools#readme",
+  "devDependencies": {
+    "shelljs": "^0.7.8"
+  },
+  "dependencies": {
+    "node-json-db": "^0.7.3",
+    "password-hash": "^1.2.2"
+  }
+}

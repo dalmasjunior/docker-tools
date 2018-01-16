@@ -5,8 +5,8 @@ const config = require('../lib/config');
 const list = require('../lib/list');
 
 var args = process.argv.splice(process.execArgv.length + 2);
-// if (process.platform == 'linux') {
-if (process.platform == 'win32') {
+if (process.platform == 'linux') {
+// if (process.platform == 'win32') {
     list.updateList();
     switch (args[0]) {
         case "--help":
